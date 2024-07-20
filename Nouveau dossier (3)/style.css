@@ -1,0 +1,63 @@
+body {
+  background-image: url('canard.jpg');
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #333;
+  padding: 1rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+#file-container {
+  width: 60%;
+  margin-right: 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+}
+
+#upload-container {
+  width: 30%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 1rem;
+}
+
+#file-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#file-list li {
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+#file-list li:hover {
+  background-color: #bbb;
+}
+
+.download-icon {
+  cursor: pointer;
+  margin-left: 10px;
+  color: #333;
+}
+
+.download-icon:hover {
+  color: #007bff;
+}
